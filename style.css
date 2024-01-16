@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Mulish';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header section start */
+.container-section {
+    max-width: 1250px;
+    margin: 10px auto;
+    display: flex;
+
+}
+
+.nav-container {
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.nav-container img {
+    object-fit: cover;
+}
+
+.nav-container p {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.primary-color {
+    color: #FF5400;
+}
+
+.items-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding-right: 70px;
+}
+
+.items-container a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424247;
+
+}
+
+#home-nav {
+    color: #FF5400;
+}
+
+/* Header section end */
+
+/* Banner section start */
+.banner {
+    max-width: 1250px;
+    min-height: 400px;
+    background-image: url('./Images/Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    border-radius: 16px;
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+    /* border: 2px solid red; */
+
+}
+
+.banner p {
+    height: 20px;
+    color: #fffcfc;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.input-button {
+    background: linear-gradient(180deg, rgba(195, 195, 214, 0.8) 0%, rgba(218, 218, 228, 0) 100%);
+    width: 55%;
+    height: 60px;
+    margin-left: 320px;
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.input-button input {
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #FF5400;
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+}
+
+
+
+/* Banner section end */
+
+/* Popular travel section start*/
+.popular-container {
+    max-width: 1250px;
+    height: 400px;
+    margin: 10px 0px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.popular-title {
+    width: 50%;
+    /* border: 2px solid blue; */
+}
+.popular-header{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    
+}
+.popular-title p{
+    padding-left: 10px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #131318B2;
+}
+
+.popular-image {
+    width: 50%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.popular-image img {
+    width: 100%;
+    height: 390px;
+    border-radius: 16px;
+    /* padding-left: 15px; */
+    
+
+}
+.popular-title button{
+    margin-left: 10px;
+}
+
+.popular-title>ul {
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+
+
+/* Popular travel section end*/
+
+
+
+
+
+
+
+/* footer section Start */
+.footer-container{
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    background-color: rgba(19, 19, 24, 0.05);
+
+}
+
+.footer-title{
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.footer-title p{
+    font-size: 32px;
+    font-weight: 800;
+
+
+}
+.footer-title img{
+    align-items: center;
+}
+.footer-icons{
+    width: 500px;
+    border-bottom: 1px solid #1313181A;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 400px;
+    padding-left: 20px;
+    text-align: center;
+    
+}
+.footer-icons img{
+    padding-top: 20px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.copyright p{
+    font-size: 14px;
+    font-weight: 300;
+    color:#131318;
+}
+
+/* footer section end */

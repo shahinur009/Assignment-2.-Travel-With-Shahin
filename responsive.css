@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+    .container-section {
+        flex-direction: column;
+        margin-left: 150px;
+    }
+
+    .items-container {
+        flex-direction: column;
+        margin-left: 65px;
+    }
+
+    .banner-container {
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+
+    .input-button {
+        flex-direction: column;
+        height: 20%;
+        margin-left: 10px;
+        gap: 5px;
+        width: 90%;
+    }
+    .input-button input {
+        border-radius: 10px;
+        height: 60px;
+        width: 90%;
+        border: none;
+        gap: 5px;
+    }
+    .btn-primary {
+        width: 190px;
+        text-align: center;
+
+    }
+    .popular-container {
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .popular-title {
+        width: 100%;
+
+    }
+    .popular-image {
+        width: 100%;
+    }
+    
+
+}
