@@ -1,11 +1,19 @@
 @media screen and (max-width: 600px) {
     .container-section {
         flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
 
     .items-container {
         flex-direction: column;
-        margin-left: 65px;
+        /* margin-left: 65px; */
+    }
+    .nav-container{
+        padding-left: 0;
+    }
+    .items-container a{
+        margin-bottom: 1rem;
     }
 
     .banner-container {
@@ -22,19 +30,21 @@
         margin-left: 10px;
         gap: 5px;
         width: 90%;
+        
     }
 
     .input-button input {
         border-radius: 10px;
         height: 60px;
-        width: 90%;
+        width: 100%;
         border: none;
         gap: 5px;
     }
 
     .btn-primary {
-        width: 190px;
+        /* width: 190px; */
         text-align: center;
+        padding: 1rem 2rem;
 
     }
 
