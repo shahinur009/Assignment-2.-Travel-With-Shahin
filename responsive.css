@@ -1,7 +1,6 @@
 @media screen and (max-width: 600px) {
     .container-section {
         flex-direction: column;
-        margin-left: 150px;
     }
 
     .items-container {
